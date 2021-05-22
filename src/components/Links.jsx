@@ -7,6 +7,7 @@ import image3 from "../assets/images/Image3.png";
 import image4 from "../assets/images/Image4.png";
 
 function Links() {
+
   return (
     <>
       <Link
@@ -25,10 +26,10 @@ function Links() {
       />
       <Link
         src={image3}
-        imgClassName="details"
+        imgClassName="starlink"
         textClassName="text-links"
-        containerClassName="details-container"
-        text="Details"
+        containerClassName="starlink-container"
+        text="Starlink"
       />
       <Link
         src={image4}

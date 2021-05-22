@@ -14,8 +14,10 @@ async function getStarlink() {
 
 async function getCapsules() {
   try {
-    const response = await axios.get(`${URL}/capsules`)
+    const response = await axios.get(`${URL}/capsules`);
     return response.data;
+
+
   } catch (event) {
     console.error(event);
   }

@@ -1,5 +1,3 @@
-// tu będą kółka zwielokrotnione jako komponenty i komponenty kółek które dostaną różne style i pozycje
-
 import React from "react";
 import { ReactComponent as CircleLeft } from "../assets/images/circle-left.svg";
 import { ReactComponent as CircleTop } from "../assets/images/circle-top.svg";
