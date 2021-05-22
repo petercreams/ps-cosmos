@@ -1,0 +1,559 @@
+/* Background styling */
+
+body {
+  background-color: #221b3a;
+  /* background-color: yellow; */
+}
+
+.circle-left {
+  position: absolute;
+  top: 322px;
+  left: 0px;
+}
+
+.circle-top {
+  position: absolute;
+  top: 0px;
+  left: 484px;
+}
+
+.circle-right {
+  position: absolute;
+  top: 108px;
+  right: 0px;
+}
+
+.dot1 {
+  position: absolute;
+  left: 5.62%;
+  right: 93.82%;
+  top: 18.75%;
+  bottom: 80.21%;
+}
+
+.dot2 {
+  position: absolute;
+  left: 45.83%;
+  right: 53.61%;
+  top: 84.9%;
+  bottom: 14.06%;
+}
+
+.dot3 {
+  position: absolute;
+  left: 60.76%;
+  right: 38.68%;
+  top: 10.94%;
+  bottom: 88.02%;
+}
+
+.dot4 {
+  position: absolute;
+  left: 87.43%;
+  right: 12.01%;
+  top: 71.88%;
+  bottom: 27.08%;
+}
+
+/* Logo styling */
+
+.logo-image {
+  position: absolute;
+  left: 11.46%;
+  right: 80.49%;
+  top: 4.69%;
+  bottom: 92.19%;
+  background: #221b3a;
+}
+
+.logo-dot {
+  position: absolute;
+  left: 11.46%;
+  right: 88.25%;
+  top: 5.65%;
+  bottom: 93.59%;
+
+  background: #221b3a;
+}
+
+/* Footer styling */
+
+.footer-left {
+  position: absolute;
+  width: 215px;
+  height: 16px;
+  left: 165px;
+  bottom: 24px;
+
+  /* 12/Regular */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.4px;
+
+  color: #8d7fbc;
+}
+
+.footer-right {
+  position: absolute;
+  width: 195px;
+  height: 16px;
+  right: 164px;
+  bottom: 24px;
+
+  /* 12/Regular */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.4px;
+
+  color: #8d7fbc;
+}
+
+/* Links styling */
+
+.shadow {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(360deg, #2b224a 0%, rgba(43, 34, 74, 0) 100%);
+}
+
+.capsules {
+  width: 160px;
+  height: 208px;
+
+  border-radius: 16px;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.capsules-container {
+  position: absolute;
+  left: 260px;
+  top: 160px;
+}
+
+.crew {
+  width: 160px;
+  height: 208px;
+
+  border-radius: 16px;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.crew-container {
+  position: absolute;
+  left: 450px;
+  top: 160px;
+}
+
+.rockets {
+  width: 160px;
+  height: 208px;
+
+  background: linear-gradient(360deg, #2b224a 0%, rgba(43, 34, 74, 0) 100%),
+    url(image.png);
+  border-radius: 16px;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.rockets-container {
+  position: absolute;
+  left: 260px;
+  top: 400px;
+}
+
+.starlink {
+  width: 160px;
+  height: 208px;
+  opacity: 50%;
+  cursor: pointer;
+
+  background: linear-gradient(
+    0deg,
+    rgba(43, 34, 74, 0.92) 7.69%,
+    rgba(70, 58, 113, 0.92) 100%
+  );
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.starlink-container {
+  position: absolute;
+  left: 450px;
+  top: 400px;
+}
+
+.text-links {
+  position: absolute;
+  width: 64px;
+  height: 20px;
+  left: 48px;
+  bottom: 24px;
+
+  text-align: center;
+
+  /* 14/Semi Bold */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #ffff;
+}
+
+/* Rocket styling */
+
+.planet {
+  position: absolute;
+
+  order: 1;
+
+  width: 375px;
+  height: 372px;
+
+  left: 57.64%;
+  right: 16.32%;
+  top: 21.35%;
+  bottom: 30.21%;
+}
+
+.rocket-container {
+  position: absolute;
+  left: 135px;
+  bottom: 299px;
+  width: 102px;
+  height: 145px;
+}
+
+.rocket {
+  position: absolute;
+  bottom: 5px;
+}
+
+.gear {
+  position: absolute;
+  left: 17px;
+  bottom: 0px;
+}
+
+.smoke1 {
+  position: absolute;
+  right: 103px;
+  top: 23px;
+}
+
+.smoke2 {
+  position: absolute;
+  left: 87px;
+  top: 10px;
+}
+
+.launch-rocket {
+  align-items: center;
+  left: 92px;
+  top: 24px;
+
+  padding: 12px 32px;
+  width: 184px;
+  height: 48px;
+
+  position: relative;
+
+  background: #7860d7;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+/**
+ * ----------------------------------------
+ * animation vibrate-1
+ * ----------------------------------------
+ */
+
+.vibrate-1 {
+  -webkit-animation: vibrate-1 0.3s linear infinite both;
+  animation: vibrate-1 0.3s linear infinite both;
+  animation-iteration-count: 2;
+}
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+.rocketAnim {
+  -webkit-animation: rocketAnim 3s ease;
+  animation: rocketAnim 3s ease;
+}
+
+@keyframes rocketAnim {
+  0% {
+    top: -10px;
+  }
+
+  20% {
+    top: -250px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  40% {
+    top: -200px;
+    left: 300px;
+  }
+
+  60% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    top: -160px;
+  }
+
+  80% {
+    top: -100px;
+    left: 135px;
+  }
+
+  100% {
+    top: -72px;
+    left: 135px;
+  }
+}
+
+@-webkit-keyframes rocketAnim {
+  0% {
+    top: -10px;
+  }
+
+  20% {
+    top: -250px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  40% {
+    top: -200px;
+    left: 300px;
+  }
+
+  60% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    top: -160px;
+  }
+
+  80% {
+    top: -100px;
+    left: 135px;
+  }
+
+  100% {
+    top: -72px;
+    left: 135px;
+  }
+}
+
+/* Modal styling */
+
+.modal-container {
+  width: 600px;
+  height: 400px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+}
+
+.modal {
+  width: 540px;
+  height: 360px;
+  transform: translate(-50%, -50%);
+
+  background: linear-gradient(0deg, #2b224a, #2b224a), #ffffff;
+  border: 1px solid #342957;
+  box-sizing: border-box;
+  box-shadow: 0px 12px 32px rgba(22, 13, 49, 0.4);
+  border-radius: 16px;
+  z-index: 10;
+}
+
+.exitModal {
+  position: absolute;
+  right: 29px;
+  top: 29px;
+  cursor: pointer;
+}
+
+.modalOff {
+  display: none;
+}
+
+.headerModal {
+  position: absolute;
+  left: 24px;
+  top: 20;
+  width: 76px;
+  height: 32px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+
+  color: #ffffff;
+}
+
+.col1 {
+}
+
+.col2 {
+}
+
+.colHeader {
+  position: absolute;
+  width: 492px;
+  height: 40px;
+  left: 24px;
+  top: 68px;
+
+  background: #342a56;
+  border-radius: 4px;
+}
+
+.col1-container {
+  position: relative;
+  width: 246px;
+  height: 40px;
+  /* left: 16px;
+  top: 10px; */
+
+  background: #251d42;
+  border-radius: 4px;
+}
+
+.col1-header {
+  position: absolute;
+  width: 194px;
+  height: 20px;
+  left: 16px;
+  top: 10px;
+  margin: 0;
+
+  /* 14/Semi Bold */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #a094c6;
+}
+
+.col2-header {
+  position: absolute;
+  width: 194px;
+  height: 20px;
+  left: 262px;
+  top: 10px;
+  margin: 0;
+
+  /* 14/Semi Bold */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #a094c6;
+}
+
+.arrows {
+  position: absolute;
+  left: 216px;
+  top: 14px;
+}

@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/ps-cosmos/static/js/main.57119a5d.chunk.js",
+    "main.js.map": "/ps-cosmos/static/js/main.57119a5d.chunk.js.map",
+    "runtime-main.js": "/ps-cosmos/static/js/runtime-main.1d72e67f.js",
+    "runtime-main.js.map": "/ps-cosmos/static/js/runtime-main.1d72e67f.js.map",
+    "static/js/2.182dc4d6.chunk.js": "/ps-cosmos/static/js/2.182dc4d6.chunk.js",
+    "static/js/2.182dc4d6.chunk.js.map": "/ps-cosmos/static/js/2.182dc4d6.chunk.js.map",
+    "index.html": "/ps-cosmos/index.html",
+    "static/js/2.182dc4d6.chunk.js.LICENSE.txt": "/ps-cosmos/static/js/2.182dc4d6.chunk.js.LICENSE.txt",
+    "static/media/Image1.77d16325.png": "/ps-cosmos/static/media/Image1.77d16325.png",
+    "static/media/Image2.cc48439a.png": "/ps-cosmos/static/media/Image2.cc48439a.png",
+    "static/media/Image3.840506c5.png": "/ps-cosmos/static/media/Image3.840506c5.png",
+    "static/media/Image4.c10e4c42.png": "/ps-cosmos/static/media/Image4.c10e4c42.png",
+    "static/media/Planet.cdf501d6.png": "/ps-cosmos/static/media/Planet.cdf501d6.png",
+    "static/media/circle-left.06db1f7b.svg": "/ps-cosmos/static/media/circle-left.06db1f7b.svg",
+    "static/media/circle-right.1b631783.svg": "/ps-cosmos/static/media/circle-right.1b631783.svg",
+    "static/media/circle-top.d226a7b0.svg": "/ps-cosmos/static/media/circle-top.d226a7b0.svg",
+    "static/media/dot1.7e4ed2e3.svg": "/ps-cosmos/static/media/dot1.7e4ed2e3.svg",
+    "static/media/dot2.9c1db7f0.svg": "/ps-cosmos/static/media/dot2.9c1db7f0.svg",
+    "static/media/dot3.e46b3f52.svg": "/ps-cosmos/static/media/dot3.e46b3f52.svg",
+    "static/media/logo-dot.65df90ff.svg": "/ps-cosmos/static/media/logo-dot.65df90ff.svg",
+    "static/media/logo.a0d29abe.svg": "/ps-cosmos/static/media/logo.a0d29abe.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d72e67f.js",
+    "static/js/2.182dc4d6.chunk.js",
+    "static/js/main.57119a5d.chunk.js"
+  ]
+}
